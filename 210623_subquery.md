@@ -5,3 +5,5 @@
  - WITH절과 INLINE VIEW와 비슷하나
     .구조 상 INLINE VIEW는 서브쿼리를 먼저 작성해야 함. (FROM절부터 작성해야 해서)
     .WITH절은 논리 전개의 흐름대로 작성할 수 있음, 가독성 측면에서 많이 쓰임, 단 성능상 문제가 될 수 있어서 너무 남발하면 안됨.
+
+ - Top n QUERY : ROWNUM, RANK, FETCH FIRST n ROWS(PERCENT ROWS) ONLY;
