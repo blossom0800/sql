@@ -1,0 +1,2 @@
+# RATIO TO REPORT, 점유율/비중 구할 때 쓰는 함수
+`RATIO TO REPORT(CNT) OVER (PARTITION BY 컬럼)`
