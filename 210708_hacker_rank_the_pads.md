@@ -1,4 +1,4 @@
-[the-pads-English.pdf](https://github.com/blossom0800/sql_study/files/6781629/the-pads-English.pdf)
+[the-pads-English.pdf](https://github.com/blossom0800/sql_study/files/6781629/the-pads-English.pdf) <br>
 (Source: https://www.hackerrank.com/challenges/the-pads/problem)
 
 `SELECT Name || '(' || SUBSTR(Occupation, 1, 1) || ')'
