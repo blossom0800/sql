@@ -1,14 +1,18 @@
 [the-pads-English.pdf](https://github.com/blossom0800/sql_study/files/6781629/the-pads-English.pdf) <br>
 (Source: https://www.hackerrank.com/challenges/the-pads/problem)
 
-`SELECT Name || '(' || SUBSTR(Occupation, 1, 1) || ')'
+```
+SELECT Name || '(' || SUBSTR(Occupation, 1, 1) || ')'
 FROM OCCUPATIONS
-ORDER BY Name;`
+ORDER BY Name;
+```
 
-`SELECT 'There are a total of ' || Count(Occupation) || ' ' || LOWER(Occupation) || 's.'
+```
+SELECT 'There are a total of ' || Count(Occupation) || ' ' || LOWER(Occupation) || 's.'
 FROM Occupations
 GROUP BY Occupation
-ORDER BY Count(Name), Occupation;`
+ORDER BY Count(Name), Occupation;
+```
 
 # TIL
  - 그냥 연속해서 쿼리를 입력해도 같이 실행되는구나..There are a total of~ 문장을 계속 첫 번째 select문에 붙일 생각만 했음
